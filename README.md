@@ -1,6 +1,9 @@
 # BSD-XFCE
 BSD-XFCE is a collection of scripts and FreeBSD filesystem configurations to install a full-pledged and high-performant XFCE enviroment specially optimized for desktop and workstation use without the hassle and with a very beautiful looking for classic macOS users.
 
+## Screenshots
+
+![App Screenshot](https://github.com/Wamphyre/BSD-XFCE/blob/main/screenshot.png)
 
 ## Features
 
