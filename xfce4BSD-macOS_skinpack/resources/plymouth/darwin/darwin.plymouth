@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Darwin
+Description=comiceOS Darwin Plymouth theme
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/darwin
+ScriptFile=/usr/share/plymouth/themes/darwin/darwin.script

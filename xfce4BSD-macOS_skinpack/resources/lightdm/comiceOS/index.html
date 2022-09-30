@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+    <!-- mock.js is only required for local testing -->
+    <script type="text/javascript" src="resources/js/mock.js"></script>
+    <script type="text/javascript" src="resources/js/script.js"></script>
+  </head>
+  <body onload="initialize()" oncontextmenu="return false;">
+	<div class="cover"></div>
+    <div class="header">
+    <div class="headertext"></div> <!-- you can change this to whatever -->
+    </div>
+<div class="time" id="current_time">00:00 AM</div>
+    </div>
+    <div class="login_content">
+      <div class="login_container">
+        <div class="center">
+          <div id="user_template" class="user hidden smooth button">
+            <div class="user_image_wrapper">
+              <img class="user_image" src=""/>
+            </div>
+            <span class="user_name"></span>
+          </div>
+        </div>
+        <div id="password_container" class="pass passhidden passsmooth">
+          <form action="javascript: provide_secret()" class="password_prompt">
+            <input id="password_entry" type="password" placeholder="Password" />
+            <div id="session_container" class="hidden">
+              <div id="session_template">
+                <label>
+                  <input type="radio" name="session">&nbsp;
+                  <span class="session_label"></a>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="message" class="smooth">
+      <div id="message_content"></div>
+    </div>
+    <div class="footer">
+      <div id="action_suspend" class="action button">
+        <div class="action_image_wrapper" onclick="lightdm.suspend();"><img class="action_image" src="resources/img/sleep.svg"/></div>
+        <span class="action_label">Suspend</span>
+      </div>
+      <div id="action_restart" class="action button">
+        <div class="action_image_wrapper" onclick="lightdm.restart();"><img class="action_image" src="resources/img/restart.svg"/></div>
+        <span class="action_label">Restart</span>
+      </div>
+      <div id="action_shutdown" class="action button">
+        <div class="action_image_wrapper" onclick="lightdm.shutdown();"><img class="action_image" src="resources/img/shutdown.svg"/></div>
+        <span class="action_label">Shut Down</span>
+      </div>
+    </div>
+  </body>
+</html>

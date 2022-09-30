@@ -1,0 +1,60 @@
+#!/bin/bash
+
+echo "Finishing comiceOS updates..."
+
+# First reconfigure plymouth theme (boot splash)
+/usr/sbin/plymouth-set-default-theme darwin
+update-initramfs -u
+
+# Then mantain default comiceOS apps and remove duplicates
+rm -Rf /usr/share/applications/xfce4-settings-editor.desktop 2> /dev/null
+
+rm -Rf /usr/share/applications/Thunar.desktop 2> /dev/null
+rm -Rf /usr/share/applications/thunar-settings.desktop 2> /dev/null
+rm -Rf /usr/share/applications/thunar-volman-settings.desktop 2> /dev/null
+cp /usr/share/comice/apps/Finder.desktop /usr/share/applications/ 2> /dev/null
+
+rm -Rf /usr/share/applications/org.gnome.Epiphany.desktop 2> /dev/null
+cp /usr/share/comice/apps/Safari.desktop /usr/share/applications/ 2> /dev/null
+
+rm -Rf /usr/share/applications/libreoffice-startcenter.desktop 2> /dev/null
+cp /usr/share/comice/apps/iWork.desktop /usr/share/applications/ 2> /dev/null
+
+rm -Rf /usr/share/applications/libreoffice-writer.desktop 2> /dev/null
+cp /usr/share/comice/apps/Pages.desktop /usr/share/applications/ 2> /dev/null
+
+rm -Rf /usr/share/applications/libreoffice-calc.desktop 2> /dev/null
+cp /usr/share/comice/apps/Numbers.desktop /usr/share/applications/ 2> /dev/null
+
+rm -Rf /usr/share/applications/libreoffice-impress.desktop 2> /dev/null
+cp /usr/share/comice/apps/Keynote.desktop /usr/share/applications/ 2> /dev/null
+
+rm -Rf /usr/share/applications/libreoffice-draw.desktop 2> /dev/null
+cp /usr/share/comice/apps/Draw.desktop /usr/share/applications/ 2> /dev/null
+
+rm -Rf /usr/share/applications/libreoffice-math.desktop 2> /dev/null
+cp /usr/share/comice/apps/Math.desktop /usr/share/applications/ 2> /dev/null
+
+rm -Rf /usr/share/applications/libreoffice-base.desktop 2> /dev/null
+cp /usr/share/comice/apps/Base.desktop /usr/share/applications/ 2> /dev/null
+
+rm -Rf /usr/share/applications/shotwell.desktop 2> /dev/null
+rm -Rf /usr/share/applications/shotwell-viewer.desktop 2> /dev/nul
+cp /usr/share/comice/apps/Photos.desktop /usr/share/applications/ 2> /dev/null
+
+rm -Rf /usr/share/applications/rhythmbox.desktop 2> /dev/null
+rm -Rf /usr/share/applications/rhythmbox-device.desktop 2> /dev/null
+cp /usr/share/comice/apps/iTunes.desktop /usr/share/applications/ 2> /dev/null
+
+rm -Rf /usr/share/applications/ristretto.desktop 2> /dev/null
+cp /usr/share/comice/apps/Preview.desktop /usr/share/applications/ 2> /dev/null
+
+rm -Rf /usr/share/applications/org.xfce.Parole.desktop 2> /dev/nul
+cp /usr/share/comice/apps/Quicktime.desktop /usr/share/applications/ 2> /dev/null
+
+# Resize and fix LightPad background to fit in you monitor screen size
+convert /usr/share/backgrounds/Catalina-blurred.jpg -resize $(xdpyinfo | awk '/dimensions/{print $2}')\! -blur 0x75 /home/comice/.lightpad/background.jpg
+chmod 644 /home/comice/.lightpad/background.jpg
+chown comice:comice /home/comice/.lightpad/background.jpg
+
+

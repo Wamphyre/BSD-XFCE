@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg7384"
+   sodipodi:docname="user-trash-symbolic.svg"
+   version="1.1"
+   inkscape:version="0.92.4 (unknown)"
+   height="36"
+   width="36">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:cy="11.848601"
+     pagecolor="#ffffff"
+     borderopacity="1"
+     showborder="true"
+     inkscape:bbox-paths="false"
+     guidetolerance="10"
+     inkscape:window-width="1920"
+     showguides="false"
+     inkscape:object-nodes="true"
+     inkscape:snap-bbox="true"
+     inkscape:pageshadow="2"
+     inkscape:guide-bbox="true"
+     inkscape:snap-nodes="true"
+     bordercolor="#666666"
+     objecttolerance="10"
+     id="namedview88"
+     showgrid="false"
+     inkscape:window-maximized="1"
+     inkscape:window-x="0"
+     inkscape:snap-global="true"
+     inkscape:window-y="27"
+     gridtolerance="10"
+     inkscape:window-height="1016"
+     inkscape:snap-to-guides="true"
+     inkscape:current-layer="layer13"
+     inkscape:zoom="9.7175793"
+     inkscape:cx="-36.935018"
+     inkscape:snap-grids="true"
+     inkscape:pageopacity="1">
+    <inkscape:grid
+       spacingx="1"
+       spacingy="1"
+       id="grid4866"
+       empspacing="2"
+       enabled="true"
+       type="xygrid"
+       snapvisiblegridlinesonly="true"
+       visible="true"
+       originx="0"
+       originy="0" />
+    <sodipodi:guide
+       position="-28.710854,53.099644"
+       orientation="1,0"
+       id="guide833"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-24.303755,6.1850873"
+       orientation="0,1"
+       id="guide835"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386" />
+  <g
+     inkscape:label="status"
+     transform="translate(-442,-156)"
+     inkscape:groupmode="layer"
+     id="layer9"
+     style="display:inline" />
+  <g
+     inkscape:label="devices"
+     transform="translate(-442,-156)"
+     inkscape:groupmode="layer"
+     id="layer10" />
+  <g
+     inkscape:label="apps"
+     transform="translate(-442,-156)"
+     inkscape:groupmode="layer"
+     id="layer11" />
+  <g
+     inkscape:label="actions"
+     transform="translate(-442,-156)"
+     inkscape:groupmode="layer"
+     id="layer12" />
+  <g
+     inkscape:label="places"
+     transform="translate(-442,-156)"
+     inkscape:groupmode="layer"
+     id="layer13">
+    <g
+       id="g889"
+       transform="matrix(1.0309079,0,0,1.0309079,-13.540439,-5.5547755)">
+      <path
+         inkscape:connector-curvature="0"
+         id="rect830"
+         d="m 460.04449,156.91391 c -3.11531,-0.0128 -6.21985,0.41158 -8.70898,1.30274 -2.48916,0.89115 -4.42279,2.26433 -4.97071,4.2539 l 0.0488,0.0137 0.18359,1.10937 4.21875,25.73047 c 0.0653,0.3971 0.33348,0.73116 0.70704,0.88086 4.81844,1.9313 12.03603,1.94964 16.62695,-0.01 0.35189,-0.15037 0.60593,-0.46592 0.67773,-0.84179 l 4.93946,-25.72852 0.21679,-1.13086 -0.0684,-0.0566 c -0.66496,-1.92001 -2.61953,-3.2624 -5.10742,-4.1543 -2.52523,-0.90528 -5.64836,-1.35629 -8.76367,-1.36914 z m 0.13086,0.93946 a 11.834174,3.6019039 0 0 1 11.83398,3.60156 11.834174,3.6019039 0 0 1 -0.33398,0.83203 l -0.16602,0.9043 -0.85351,4.44726 c -6.90509,2.36418 -14.02174,2.38413 -21.08203,-0.10742 l -0.70703,-4.31055 -0.14454,-0.86718 a 11.834174,3.6019039 0 0 1 -0.38281,-0.89844 11.834174,3.6019039 0 0 1 11.83594,-3.60156 z m -10.41797,10.80468 c 6.91124,2.31951 13.91295,2.30279 20.68164,0.10743 l -3.73828,19.46093 c -3.65029,1.33366 -9.81883,1.34809 -13.73438,-0.004 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.60504204;fill-rule:nonzero;stroke:none;stroke-width:2.29999995;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path854"
+         d="m 460.17535,158.39829 a 11.834174,3.6019039 0 0 0 -11.79297,3.34375 11.834174,3.6019039 0 0 0 11.79297,3.31445 11.834174,3.6019039 0 0 0 11.79101,-3.34179 11.834174,3.6019039 0 0 0 -11.79101,-3.31641 z"
+         style="opacity:1;fill:#000000;fill-opacity:0.10084037;stroke:none;stroke-width:2.39623356;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path865"
+         d="m 471.79058,162.11313 a 11.834174,3.6019039 0 0 1 -11.61523,2.94336 11.834174,3.6019039 0 0 1 -11.5293,-2.8164 11.834174,3.6019039 0 0 0 0.0762,0.11328 l 0.14454,0.86718 0.70703,4.31055 c 7.06029,2.49155 14.17694,2.4716 21.08203,0.10742 l 0.85351,-4.44726 0.16602,-0.9043 a 11.834174,3.6019039 0 0 0 0.11523,-0.17383 z"
+         style="fill:#000000;fill-opacity:0.31512606;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path873"
+         d="m 460.17535,157.85337 c 0.78481,0 1.54892,0.0259 2.29101,0.0703 a 11.834174,3.6019039 0 0 0 -2.29101,-0.0703 z m 0,0 a 11.834174,3.6019039 0 0 0 -2.23242,0.0684 c 0.72444,-0.0422 1.46759,-0.0684 2.23242,-0.0684 z m 2.52344,0.0859 c 0.68931,0.0457 1.35739,0.10897 1.99609,0.18946 a 11.834174,3.6019039 0 0 0 -1.99609,-0.18946 z m -5.11914,0.006 a 11.834174,3.6019039 0 0 0 -1.90235,0.18164 c 0.60893,-0.0763 1.2474,-0.13691 1.90235,-0.18164 z m 7.27539,0.20313 c 0.65734,0.0863 1.28377,0.19094 1.87304,0.31055 a 11.834174,3.6019039 0 0 0 -1.87304,-0.31055 z m -9.45508,0.0156 a 11.834174,3.6019039 0 0 0 -1.77539,0.29297 c 0.55872,-0.11328 1.15524,-0.20949 1.77539,-0.29297 z m 11.41015,0.31055 c 0.59281,0.12246 1.14306,0.26174 1.65235,0.41406 a 11.834174,3.6019039 0 0 0 -1.65235,-0.41406 z m -13.35351,0.0195 a 11.834174,3.6019039 0 0 0 -1.60938,0.4043 c 0.49413,-0.14903 1.03553,-0.28348 1.60938,-0.4043 z m 15.11328,0.42383 c 0.48295,0.14804 0.91546,0.31077 1.30859,0.48242 a 11.834174,3.6019039 0 0 0 -1.30859,-0.48242 z m -16.83789,0.0176 a 11.834174,3.6019039 0 0 0 -1.3418,0.49414 c 0.39711,-0.17735 0.84967,-0.34143 1.3418,-0.49414 z m 18.33789,0.54687 c 0.0768,0.0356 0.146,0.0729 0.21875,0.10938 a 11.834174,3.6019039 0 0 0 -0.21875,-0.10938 z m 0.60352,0.31446 c 0.0517,0.0303 0.0975,0.061 0.14648,0.0918 a 11.834174,3.6019039 0 0 0 -0.14648,-0.0918 z m 0.48632,0.32226 c 0.0487,0.037 0.0901,0.0756 0.13477,0.11328 a 11.834174,3.6019039 0 0 0 -0.13477,-0.11328 z m 0.37305,0.33203 c 0.0406,0.0426 0.0739,0.0857 0.10938,0.12891 a 11.834174,3.6019039 0 0 0 -0.10938,-0.12891 z m 0.27149,0.34766 c 0.029,0.0479 0.0515,0.096 0.0742,0.14453 a 11.834174,3.6019039 0 0 0 -0.0742,-0.14453 z m 0.20507,0.65625 c -10e-4,0.0808 -0.0303,0.16141 -0.0508,0.24219 a 11.834174,3.6019039 0 0 1 0.002,0.004 11.834174,3.6019039 0 0 0 0.0488,-0.24609 z m -0.0684,0.33203 c -2.4e-4,7.5e-4 -0.002,0.001 -0.002,0.002 -0.007,0.0201 -0.004,0.0406 -0.0117,0.0606 a 11.834174,3.6019039 0 0 0 0.0137,-0.0625 z m -23.30664,0.4375 a 11.834174,3.6019039 0 0 0 0.0879,0.12891 11.834174,3.6019039 0 0 1 -0.0566,-0.084 11.834174,3.6019039 0 0 1 -0.0312,-0.0449 z m 1.12305,6.43359 3.20898,19.56446 c 3.91555,1.35199 10.08409,1.33757 13.73438,0.004 l 3.73828,-19.46093 c -6.76869,2.19536 -13.7704,2.21208 -20.68164,-0.10743 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.11764706;fill-rule:nonzero;stroke:none;stroke-width:2.29999995;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </g>
+  </g>
+  <g
+     inkscape:label="mimetypes"
+     transform="translate(-442,-156)"
+     inkscape:groupmode="layer"
+     id="layer14" />
+  <g
+     inkscape:label="emblems"
+     transform="translate(-442,-156)"
+     inkscape:groupmode="layer"
+     id="layer15"
+     style="display:inline" />
+</svg>

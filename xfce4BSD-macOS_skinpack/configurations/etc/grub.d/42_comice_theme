@@ -1,0 +1,7 @@
+#!/bin/sh
+# /etc/grub.d/42_comice_theme
+# and run 'sudo update-grub'
+echo "set menu_color_normal=light-gray/black"
+echo "set menu_color_highlight=black/light-gray"
+echo "set color_normal=light-gray/black"
+echo "set color_highlight=black/light-gray"

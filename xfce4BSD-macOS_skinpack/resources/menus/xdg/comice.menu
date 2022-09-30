@@ -1,0 +1,28 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+
+<Menu>
+    <Name>comiceOS Menu</Name>
+
+    <DefaultAppDirs/>
+    <DefaultDirectoryDirs/>
+    <DefaultMergeDirs/>
+
+    <Include>
+        <Category>X-Xfce-Toplevel</Category>
+    </Include>
+
+    <Layout>
+        <Filename>comice-about.desktop</Filename>
+        <Separator/>
+        <Filename>comice-settings.desktop</Filename>
+        <Separator/>
+        <Filename>comice-sleep.desktop</Filename>
+        <Filename>comice-restart.desktop</Filename>
+        <Filename>comice-shutdown.desktop</Filename>
+        <Separator/>
+        <Filename>comice-logout.desktop</Filename>
+    </Layout>
+
+</Menu>

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Custom session manager to shutdown, reboot and hibernate
+# with some window dialogs.
+
+case "$1" in
+    1|shutdown)
+        zenity --question --width 300 --height 100 --ok-label="Shut Down" --cancel-label="Cancel" --icon-name="system-shutdown" --title="" --text "<b>Are you sure you want to shut down your computer now?</b> \n\n<sub>If you shut down the computer now and don't save your work, you will lose it!</sub>"; if [ $? -eq 0 ]; then xfce4-session-logout --halt; fi
+        ;;
+    2|restart)
+        zenity --question --width 300 --height 100 --ok-label="Restart" --cancel-label="Cancel" --icon-name="system-restart" --title="" --text "<b>Are you sure you want to restart your computer now?</b> \n\n<sub>If you restart the computer now and don't save your work, you will lose it!</sub>"; if [ $? -eq 0 ]; then xfce4-session-logout --reboot; fi
+        ;;
+    3|sleep)
+        zenity --question --width 300 --height 100 --ok-label="Sleep" --cancel-label="Cancel" --icon-name="system-hibernate" --title="" --text "<b>Are you sure you want to suspend your computer now?</b> \n\n<sub>If you suspend the computer now, your work will not be lost and you will be able to resume where you left off.</sub>"; if [ $? -eq 0 ]; then xfce4-session-logout --suspend; fi
+        ;;
+    4|logout)
+        zenity --question --width 300 --height 100 --ok-label="Log Out" --cancel-label="Cancel" --icon-name="system-log-out" --title="" --text "<b>Are you sure you want to quit all applications and log out now?</b> \n\n<sub>If you quit all applications and log out, you will not be able to recover your work. Save it!</sub>"; if [ $? -eq 0 ]; then xfce4-session-logout --logout; fi
+        ;;
+    *)
+        echo -e "Unknown command or option!"
+esac

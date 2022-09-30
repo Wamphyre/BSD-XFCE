@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'ArilloUI';
+    src: url('../font/Arillo_UI_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+  font: normal 100% "ArilloUI";
+  font-family: Arial, Helvetica, 'ArilloUI', sans-serif;
+cursor: default;
+}
+
+body {
+  background-color: #4c4c4c;
+  background: url('../img/logon.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: table;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-size: 16px;
+  color:#fafafa;
+  overflow: hidden;
+}
+
+.cover{
+  width:100%;
+  height:100%;
+  background:rgba(00,00,00,0.00);
+  position: absolute;
+  z-index:-1;
+}
+
+body, span, div, img {
+  -webkit-user-select: none;
+}
+
+input {
+  border: none;
+  border-radius: 6px;
+  padding: 6px;
+  background: rgba(80,80,80,0.8);
+  color:rgba(255,255,255,0.82);
+}
+
+a {
+  text-decoration: none;
+}
+
+.smooth {
+  -webkit-transition: visibility 0s, opacity 0.3s, left 0.4s;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition-delay: 0.3s, 0s, 0s;
+}
+
+.passhidden {
+  opacity: 0;
+  position:relative;
+}
+
+.passsmooth {
+  -webkit-transition: opacity 0.1s;
+}
+
+.center {
+  text-align: center;
+}
+
+.pass{
+  position:relative;
+  top: 4px;
+  text-align: center;
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  text-align: center;
+}
+
+.footer, .header {
+  width: 100%;
+}
+
+.headertext{
+float: left;
+  line-height: 25px;
+  font-size: 11pt;
+  margin-left: 10px;
+  margin-top: 5px;}
+
+.time {
+  float: right;
+  line-height: 25px;
+  font-size: 14px;
+  margin-right: 14px;
+  margin-top: 7px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .9);
+}
+
+.login_content {
+  display: table-row;
+  top: -102px;
+  position: relative;
+}
+
+.login_container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#message {
+  display: table-row;
+  -webkit-transition: visibility 0s, opacity 0.3s, height 0.3s;
+  height: 130px;
+}
+
+#message.hidden {
+  height: 0px;
+}
+
+#message_content {
+  display: table-cell;
+  vertical-align: top;
+  text-align: center;
+}
+
+#message_content.error {
+  color: #FFF;
+}
+
+.user {
+  display: inline-block;
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.user:active {
+  opacity: 0.5;
+}
+
+.user_image_wrapper {
+  border-radius: 50%;
+  border: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  margin-left: 64px;
+  margin-right: 64px;
+}
+
+.user_image {
+  border-radius: 50%;
+}
+
+.user_image, .user_image_wrapper{
+    width: 128px;
+    height: 128px;
+}
+
+.user_name {
+  display: block;
+  margin-top: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .9);
+  font-weight: bold;
+}
+
+.action {
+  display: inline-block;
+  width: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 120px;
+}
+
+.action_image {
+  width: 32px;
+  height: 36px;
+  margin-bottom: 9px;
+}
+
+.action_label {
+  color: #fafafa;
+  font-size: 14px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .9);
+}
