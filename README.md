@@ -28,8 +28,10 @@ git clone https://github.com/Wamphyre/BSD-XFCE && sh BSD-XFCE/xfce_desktop.sh
 ## Post-installation (macOS skinpack) <- Optional but recommended
 
 ```
-Step 1: cd xfce4BSD-macOS_skinpack/resources/ && sh install_resources.sh
-Step 2: cd xfce4BSD-macOS_skinpack/configurations/ && sh apply.sh
+IMPORTANT! Run these scripts with your user, not root.
+
+Step 1: cd xfce4BSD-macOS_skinpack/resources/ && sudo sh install_resources.sh
+Step 2 (As regular user): cd xfce4BSD-macOS_skinpack/configurations/ && sh apply.sh
 ```
 Please, use this scripts only in a fresh FreeBSD installation.
 
