@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USER_HOME=$(getent passwd "$USER" | cut -d: -f5)
+USER_HOME=$(getent passwd "$USER" | cut -d: -f1)
 
 # Make sure that the apps that make up the interface are not running
 
@@ -15,6 +15,7 @@ rm -Rf /home/$USER_HOME/.config/plank/dock1/*
 mkdir -p /home/$USER_HOME/.config/plank/dock1/
 
 # Apply new settings
+touch /home/$USER_HOME/.config/gtk-3.0/gtk.css
 echo "#xfce4-power-manager-plugin * { -gtk-icon-transform: scale(1.2); }" >> /home/$USER_HOME/.config/gtk-3.0/gtk.css
 
 cd ..
@@ -31,6 +32,8 @@ find /home/$USER_HOME/.config/xfce4/xfconf -type d -exec chmod 755 {} \;
 find /home/$USER_HOME/.config/xfce4/xfconf -type f -exec chmod 644 {} \;
 chown -R $USER_HOME /home/$USER_HOME/.config/xfce4/panel
 chown -R $USER_HOME /home/$USER_HOME/.config/xfce4/xfconf
+mkdir /home/$USER_HOME/.config/gtk-3.0/
+touch /home/$USER_HOME/.config/gtk-3.0/bookmarks
 echo "file:///usr/local/share/applications Applications" >> /home/$USER_HOME/.config/gtk-3.0/bookmarks
 
 xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
