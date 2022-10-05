@@ -108,9 +108,6 @@ echo ""
 
 kldload linux.ko
 sysrc linux_enable="YES"
-echo "linprocfs   /compat/linux/proc  linprocfs       rw      0       0" >> /etc/fstab
-echo "linsysfs    /compat/linux/sys   linsysfs        rw      0       0" >> /etc/fstab
-echo "tmpfs    /compat/linux/dev/shm  tmpfs   rw,mode=1777    0       0" >> /etc/fstab
 
 echo ""
 
@@ -171,6 +168,7 @@ sysrc sendmail_outbound_enable="NO"
 sysrc sendmail_submit_enable="NO"
 sysrc dumpdev="NO"
 sysrc webcamd_enable="YES"
+sysrc webcamd_0_flags="-d ugen2.2"
 sysrc jackd_enable="YES"
 sysrc jackd_user="$user"
 sysrc jackd_rtprio="YES"
