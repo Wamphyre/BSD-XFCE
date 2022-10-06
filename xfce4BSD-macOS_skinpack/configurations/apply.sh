@@ -41,6 +41,7 @@ chown -R $USER_HOME /home/$USER_HOME/.config/xfce4/xfconf
 chown -R $USER_HOME /home/$USER_HOME/.config/xfce4/autostart
 chown -R $USER_HOME /home/$USER_HOME/.config/xfce4/terminal
 mkdir /home/$USER_HOME/Downloads
+mkdir /home/$USER_HOME/Documents
 mkdir /home/$USER_HOME/Music
 mkdir /home/$USER_HOME/Images
 mkdir /home/$USER_HOME/Videos
