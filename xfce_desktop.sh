@@ -33,7 +33,7 @@ echo "Installing XFCE and creative suite..."
 
 echo ""
 
-pkg install -y xorg slim xfce xfce4-pulseaudio-plugin thunar-archive-plugin xarchiver unzip sudo bash wget htop gnome-keyring xfce4-screenshooter-plugin ristretto gnome-font-viewer mixer mixertui nano baobab networkmgr v4l-utils v4l_compat webcamd pwcview
+pkg install -y xorg slim xfce xfce4-pulseaudio-plugin thunar-archive-plugin xarchiver unzip sudo bash wget htop gnome-keyring xfce4-screenshooter-plugin ristretto gnome-font-viewer mixer mixertui nano baobab networkmgr v4l-utils v4l_compat webcamd pwcview sctd
 
 pkg install -y vlc audacious audacious-plugins audacity ardour6 guitarix-lv2 lmms hydrogen yoshimi qjackctl firefox krita shotcut filezilla vscode
 
