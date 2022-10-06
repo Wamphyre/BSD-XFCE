@@ -40,6 +40,10 @@ chown -R $USER_HOME /home/$USER_HOME/.config/xfce4/panel
 chown -R $USER_HOME /home/$USER_HOME/.config/xfce4/xfconf
 chown -R $USER_HOME /home/$USER_HOME/.config/xfce4/autostart
 chown -R $USER_HOME /home/$USER_HOME/.config/xfce4/terminal
+mkdir /home/$USER_HOME/Downloads
+mkdir /home/$USER_HOME/Music
+mkdir /home/$USER_HOME/Images
+mkdir /home/$USER_HOME/Videos
 
 mkdir /home/$USER_HOME/.config/gtk-3.0/
 touch /home/$USER_HOME/.config/gtk-3.0/bookmarks
