@@ -85,6 +85,12 @@ echo "USER=$user" >> /usr/local/etc/automount.conf
 echo "FM='thunar'" >> /usr/local/etc/automount.conf
 echo "NICENAMES=YES" >> /usr/local/etc/automount.conf
 
+echo "perm    /dev/da0        0666" >> /etc/devfs.conf
+echo "perm    /dev/da1        0666" >> /etc/devfs.conf
+echo "perm    /dev/da2        0666" >> /etc/devfs.conf
+echo "perm    /dev/da3        0666" >> /etc/devfs.conf
+echo "perm    /dev/video0     0666" >> /etc/devfs.conf
+
 echo ""
 
 echo "Adding $user to video/realtime/wheel/operator groups"
