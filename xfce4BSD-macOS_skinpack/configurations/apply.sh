@@ -26,12 +26,17 @@ chmod 644 /home/$USER_HOME/.config/plank/dock1/launchers/*.dockitem
 chown -R $USER_HOME /home/$USER_HOME/.config/plank/dock1/
 cp -R configurations/xfce4/panel /home/$USER_HOME/.config/xfce4
 cp -R configurations/xfce4/xfconf /home/$USER_HOME/.config/xfce4
+cp -R configurations/xfce4/autostart /home/$USER_HOME/.config/xfce4
 find /home/$USER_HOME/.config/xfce4/panel -type d -exec chmod 755 {} \;
 find /home/$USER_HOME/.config/xfce4/panel -type f -exec chmod 644 {} \;
 find /home/$USER_HOME/.config/xfce4/xfconf -type d -exec chmod 755 {} \;
 find /home/$USER_HOME/.config/xfce4/xfconf -type f -exec chmod 644 {} \;
+find /home/$USER_HOME/.config/xfce4/autostart -type d -exec chmod 755 {} \;
+find /home/$USER_HOME/.config/xfce4/autostart -type f -exec chmod 644 {} \;
 chown -R $USER_HOME /home/$USER_HOME/.config/xfce4/panel
 chown -R $USER_HOME /home/$USER_HOME/.config/xfce4/xfconf
+chown -R $USER_HOME /home/$USER_HOME/.config/xfce4/autostart
+
 mkdir /home/$USER_HOME/.config/gtk-3.0/
 touch /home/$USER_HOME/.config/gtk-3.0/bookmarks
 echo "file:///usr/local/share/applications Applications" >> /home/$USER_HOME/.config/gtk-3.0/bookmarks
