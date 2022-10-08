@@ -18,6 +18,8 @@
         <Separator/>
         <Filename>comice-settings.desktop</Filename>
         <Separator/>
+        <Filename>brut-control-panel.desktop</Filename>
+        <Separator/>
         <Filename>comice-sleep.desktop</Filename>
         <Filename>comice-restart.desktop</Filename>
         <Filename>comice-shutdown.desktop</Filename>
