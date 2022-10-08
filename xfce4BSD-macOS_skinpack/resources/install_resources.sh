@@ -49,6 +49,9 @@ install_menus() {
     sudo chmod 755 /usr/bin/comice-session
     sudo chown root /usr/bin/comice-session
     # Menu Items
+    sudo cp menus/items/brut-control-panel.desktop /usr/local/share/applications/
+    sudo chmod 644 /usr/local/share/applications/brut-control-panel.desktop
+    sudo chown root /usr/local/share/applications/brut-control-panel.desktop
     sudo cp menus/items/comice-logout.desktop /usr/local/share/applications/
     sudo chmod 644 /usr/local/share/applications/comice-logout.desktop
     sudo chown root /usr/local/share/applications/comice-logout.desktop
