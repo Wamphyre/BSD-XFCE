@@ -7,5 +7,5 @@ StartupNotify=false
 Terminal=false
 Categories=Utility;X-XFCE;X-Xfce-Toplevel;
 OnlyShowIn=XFCE;
-Name=About this computer
+Name=About This Computer
 Comment=Information about your computer
