@@ -4,10 +4,9 @@ Version=0.9.4
 Type=Application
 Name=Mixer mic
 Comment=
-Exec=mixer mic 80
+Exec=mixer mic 100
 OnlyShowIn=XFCE;
 RunHook=0
 StartupNotify=false
 Terminal=false
 Hidden=false
-
