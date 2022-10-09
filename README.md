@@ -20,7 +20,7 @@ BSD-XFCE is a collection of scripts and FreeBSD filesystem configurations to ins
 - Updates CPU microcode
 - Improves FreeBSD boot times
 
-## Installation
+## Installation (FreeBSD 13/13.*/14)
 
 ```
 git clone https://github.com/Wamphyre/BSD-XFCE && sh BSD-XFCE/xfce_desktop.sh
