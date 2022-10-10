@@ -43,7 +43,7 @@ cd /usr/ports/audio/hydrogen && make install clean OPTIONS="WITH_JACK" BATCH=YES
 cd /usr/ports/audio/yoshimi && make install clean BATCH=YES
 cd /usr/ports/audio/deadbeef && make install clean BATCH=YES
 
-## INSTALLS AUTOMOUNT
+## INSTALLS AUTOMOUNT AND FILESYSTEM SUPPORT
 echo ""
 echo "Enabling automount..."
 echo ""
