@@ -38,7 +38,7 @@ pkg install -y xorg slim xfce xfce4-pulseaudio-plugin thunar-archive-plugin xarc
 pkg install -y vlc deadbeef audacity ardour6 guitarix-lv2 hydrogen yoshimi qjackctl firefox krita shotcut filezilla vscode
 
 cd /usr/ports/audio/lsp-plugins-lv2 && make install clean BATCH=YES
-cd /usr/ports/audio/lmms && make install clean OPTIONS=WITH_JACK WITH_PULSEAUDIO BATCH=YES
+cd /usr/ports/audio/lmms && make install clean OPTIONS="WITH_JACK WITH_PULSEAUDIO" BATCH=YES
 
 echo ""
 
