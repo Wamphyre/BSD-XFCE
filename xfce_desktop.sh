@@ -1,5 +1,5 @@
 #!/bin/bash
-#xfce_desktop by Wamphyre
+#xfce_desktop by Wamphyre (Somekind of FreeBSD Studio and Workstation)
 #Version 1.5
 
 test $? -eq 0 || exit 1 "NEED TO BE ROOT TO RUN THIS"
@@ -40,6 +40,7 @@ cd /usr/ports/audio/qjackctl && make install clean BATCH=YES
 cd /usr/ports/audio/audacity && make install clean BATCH=YES
 cd /usr/ports/audio/guitarix-lv2 && make install clean BATCH=YES
 cd /usr/ports/audio/hydrogen && make install clean OPTIONS="WITH_JACK" BATCH=YES
+cd /usr/ports/audio/drumgizmo && make install clean BATCH=YES
 cd /usr/ports/audio/yoshimi && make install clean BATCH=YES
 cd /usr/ports/audio/deadbeef && make install clean BATCH=YES
 
