@@ -26,14 +26,14 @@ chmod 644 /home/$USER_HOME/.config/plank/dock1/launchers/*.dockitem
 chown -R $USER_HOME /home/$USER_HOME/.config/plank/dock1/
 cp -R configurations/xfce4/panel /home/$USER_HOME/.config/xfce4
 cp -R configurations/xfce4/xfconf /home/$USER_HOME/.config/xfce4
-cp -R configurations/xfce4/autostart /home/$USER_HOME/.config/xfce4
+cp -R configurations/xfce4/autostart /home/$USER_HOME/.config/autostart
 cp -R configurations/xfce4/terminal /home/$USER_HOME/.config/xfce4
 find /home/$USER_HOME/.config/xfce4/panel -type d -exec chmod 755 {} \;
 find /home/$USER_HOME/.config/xfce4/panel -type f -exec chmod 644 {} \;
 find /home/$USER_HOME/.config/xfce4/xfconf -type d -exec chmod 755 {} \;
 find /home/$USER_HOME/.config/xfce4/xfconf -type f -exec chmod 644 {} \;
-find /home/$USER_HOME/.config/xfce4/autostart -type d -exec chmod 755 {} \;
-find /home/$USER_HOME/.config/xfce4/autostart -type f -exec chmod 644 {} \;
+find /home/$USER_HOME/.config/autostart -type d -exec chmod 755 {} \;
+find /home/$USER_HOME/.config/autostart -type f -exec chmod 644 {} \;
 find /home/$USER_HOME/.config/xfce4/terminal -type d -exec chmod 755 {} \;
 find /home/$USER_HOME/.config/xfce4/terminal -type f -exec chmod 644 {} \;
 chown -R $USER_HOME /home/$USER_HOME/.config/xfce4/panel
