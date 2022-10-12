@@ -38,7 +38,7 @@ find /home/$USER_HOME/.config/xfce4/terminal -type d -exec chmod 755 {} \;
 find /home/$USER_HOME/.config/xfce4/terminal -type f -exec chmod 644 {} \;
 chown -R $USER_HOME /home/$USER_HOME/.config/xfce4/panel
 chown -R $USER_HOME /home/$USER_HOME/.config/xfce4/xfconf
-chown -R $USER_HOME /home/$USER_HOME/.config/xfce4/autostart
+chown -R $USER_HOME /home/$USER_HOME/.config/autostart
 chown -R $USER_HOME /home/$USER_HOME/.config/xfce4/terminal
 mkdir /home/$USER_HOME/Downloads
 mkdir /home/$USER_HOME/Documents
