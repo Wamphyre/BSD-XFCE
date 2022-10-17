@@ -32,7 +32,7 @@ pkg install -y gnome-keyring xfce4-screenshooter-plugin ristretto atril-lite gno
 pkg install -y baobab networkmgr v4l-utils v4l_compat webcamd pwcview sctd brut clamtk filezilla vscode firefox
 
 ## COMPILE AND INSTALLS CREATIVE SUITE APPLICATIONS
-pkg install -y vlc krita shotcut 
+pkg install -y vlc gimp shotcut 
 cd /usr/ports/audio/lsp-plugins-lv2 && make install clean BATCH=YES
 cd /usr/ports/audio/lmms && make install clean OPTIONS="WITH_JACK WITH_PULSEAUDIO" BATCH=YES
 cd /usr/ports/audio/ardour6 && make install clean BATCH=YES
