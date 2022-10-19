@@ -173,6 +173,7 @@ sysrc jackd_rtprio="YES"
 sysrc jackd_args="-r -doss -r48000 -p512 -n1 -w16 \
             --capture /dev/dsp7 --playback /dev/dsp7"
 echo ""
+## Change JACK /dev/dsp7 by your own interface
 
 ## UPDATES CPU MICROCODE
 echo "Updating CPU microcode..."
