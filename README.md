@@ -1,5 +1,5 @@
 # BSD-XFCE
-BSD-XFCE is a collection of scripts and FreeBSD filesystem configurations to install a full-pledged and high-performant XFCE enviroment specially optimized for desktop and workstation use without the hassle and with a very beautiful looking for classic macOS users.
+BSD-XFCE is a collection of scripts and FreeBSD filesystem configurations to install a full-fledged and high-performant XFCE enviroment specially optimized for desktop and workstation use without the hassle and with a very beautiful looking for classic macOS users.
 
 ## Screenshots
 
