@@ -16,7 +16,6 @@ BSD-XFCE is a collection of scripts and FreeBSD filesystem configurations to ins
 - Enables webcam support by default
 - Enables general system performance for desktop use
 - PF Firewall and security flags enabled by default
-- Disables CPU mitigations for Spectre/Meltdown
 - Updates CPU microcode
 - Improves FreeBSD boot times
 
