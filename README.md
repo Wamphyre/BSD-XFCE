@@ -30,7 +30,7 @@ BSD-XFCE is a collection of scripts and FreeBSD filesystem configurations to ins
 ```
 git clone https://github.com/Wamphyre/BSD-XFCE && sh BSD-XFCE/xfce_desktop.sh
 ```
-## Post-installation (macOS skinpack) <- Optional but recommended
+## Post-installation (macOS skinpack) <- Optional step
 
 ```
 IMPORTANT! Run these scripts with your user, not root.
