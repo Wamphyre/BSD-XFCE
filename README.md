@@ -19,6 +19,12 @@ BSD-XFCE is a collection of scripts and FreeBSD filesystem configurations to ins
 - Updates CPU microcode
 - Improves FreeBSD boot times
 
+## PLEASE: Read the code before install, you would like to change some recommended parameters
+
+## DISCLAIMER: This project doesn't want to be a "OS X clone on FreeBSD" or whatever. The installation of the macOS skinpack is totally optional, the base system installation and configurations are the big deal.
+
+## SUPPORT: Please, open an issue if you need help or want to suggest something. I will try my best :)
+
 ## Installation (FreeBSD 13/13.*/14)
 
 ```
