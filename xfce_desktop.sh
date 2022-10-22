@@ -25,8 +25,11 @@ portsnap fetch auto
 echo ""
 
 ## COMPILE CPU OPTIMIZED APPLICATIONS
+## Please, change MAKE_JOBS_NUMBER?=16 by your needed CPU cores
 touch /etc/make.conf
 echo "CPUTYPE?=native" >> /etc/make.conf
+echo "MAKE_JOBS_NUMBER?=16" >> /etc/make.conf
+echo "OPTIONS_SET=OPTIMIZED_CFLAGS CPUFLAGS" >> /etc/make.conf
 
 ## INSTALLS BASE DESKTOP AND CORE UTILS
 echo "Installing XFCE and creative suite..."
@@ -161,7 +164,8 @@ sysrc sendmail_outbound_enable="NO"
 sysrc sendmail_submit_enable="NO"
 sysrc dumpdev="NO"
 sysrc webcamd_enable="YES"
-sysrc webcamd_0_flags="-d ugen2.2"
+##Use your own USB port for webcam
+sysrc webcamd_0_flags="-d ugen2.2" 
 sysrc jackd_enable="YES"
 sysrc jackd_user="$user"
 sysrc jackd_rtprio="YES"
