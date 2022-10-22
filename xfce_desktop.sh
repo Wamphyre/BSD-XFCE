@@ -36,17 +36,8 @@ pkg install -y gnome-keyring xfce4-screenshooter-plugin ristretto atril-lite gno
 pkg install -y baobab networkmgr v4l-utils v4l_compat webcamd pwcview sctd brut clamtk filezilla vscode firefox
 
 ## COMPILE AND INSTALLS CREATIVE SUITE APPLICATIONS
-pkg install -y vlc gimp shotcut 
-cd /usr/ports/audio/lsp-plugins-lv2 && make install clean BATCH=YES
-cd /usr/ports/audio/lmms && make install clean OPTIONS="WITH_JACK WITH_PULSEAUDIO" BATCH=YES
-cd /usr/ports/audio/ardour6 && make install clean BATCH=YES
-cd /usr/ports/audio/qjackctl && make install clean BATCH=YES
-cd /usr/ports/audio/audacity && make install clean BATCH=YES
-cd /usr/ports/audio/guitarix-lv2 && make install clean BATCH=YES
-cd /usr/ports/audio/hydrogen && make install clean OPTIONS="WITH_JACK" BATCH=YES
-cd /usr/ports/audio/drumgizmo && make install clean BATCH=YES
-cd /usr/ports/audio/yoshimi && make install clean BATCH=YES
-cd /usr/ports/audio/deadbeef && make install clean BATCH=YES
+pkg install -y vlc gimp shotcut lsp-plugins-lv2 ardour6 qjackctl audacity guitarix-lv2 drumgizmo yoshimi hydrogen deadbeef
+cd /usr/ports/audio/lmms && make install clean OPTIONS="WITH_JACK" BATCH=YES
 
 ## INSTALLS AUTOMOUNT AND FILESYSTEM SUPPORT
 echo ""
