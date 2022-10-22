@@ -24,6 +24,10 @@ echo ""
 portsnap fetch auto
 echo ""
 
+## COMPILE CPU OPTIMIZED APPLICATIONS
+touch /etc/make.conf
+echo "CPUTYPE?=native" >> /etc/make.conf
+
 ## INSTALLS BASE DESKTOP AND CORE UTILS
 echo "Installing XFCE and creative suite..."
 echo ""
