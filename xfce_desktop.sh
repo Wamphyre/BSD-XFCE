@@ -1,6 +1,6 @@
 #!/bin/bash
 #xfce_desktop by Wamphyre (Somekind of FreeBSD Studio and Workstation)
-#Version 1.5
+#Version 2.0
 
 test $? -eq 0 || exit 1 "NEED TO BE ROOT TO RUN THIS"
 
