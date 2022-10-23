@@ -36,6 +36,10 @@ IMPORTANT! Run these scripts with your user, not root.
 Step 1: cd xfce4BSD-macOS_skinpack/resources/ && sudo sh install_resources.sh
 Step 2 (As regular user): cd xfce4BSD-macOS_skinpack/configurations/ && sh apply.sh
 ```
+## Creative Suite <- Optional step **AFTER** reboot
+```
+sudo sh BSD-XFCE/creative_suite.sh
+```
 Please, use this scripts only in a fresh FreeBSD installation.
 
 At some point, the script will ask you for username to enable XFCE start exec and other services like automount capabilities.
@@ -48,8 +52,8 @@ Please, open an issue if you need help or want to suggest something. I will try 
 - [@wamphyre](https://github.com/Wamphyre)
 
 ## Credits
-- All the good guys at FreeBSD forums
-- GhostBSD repository
-- NomadBSD repository
-- libredeb (For the original XFCE macOS skinpack for Linux)
-- Vermaden (For automount and well written documentation)
+- [All the good guys at FreeBSD forums](https://forums.freebsd.org/)
+- [GhostBSD repository](https://github.com/GhostBSD)
+- [NomadBSD repository](https://github.com/nomadbsd/NomadBSD)
+- [libredeb (For the original XFCE macOS skinpack for Linux)](https://github.com/libredeb/xfce4-macOS_skinpack)
+- [Vermaden (For automount and well written documentation)](https://github.com/vermaden/automount)
