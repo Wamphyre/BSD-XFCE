@@ -22,7 +22,7 @@ BSD-XFCE is a collection of scripts and FreeBSD filesystem configurations to ins
 - Improves FreeBSD boot times
 
 ## Before installation
-Read the code before install, you would like to change some recommended parameters (Nvidia driver version, sound devices, etc)
+Read the code before install, you would like to change some parameters (Nvidia driver version suitable for your GPU, sound devices, webcams...)
 
 ## Installation (FreeBSD 13/13.*/14)
 
