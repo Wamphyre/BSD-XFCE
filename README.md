@@ -55,5 +55,6 @@ Please, open an issue if you need help or want to suggest something. I will try 
 - [All the good guys at FreeBSD forums](https://forums.freebsd.org/)
 - [GhostBSD repository](https://github.com/GhostBSD)
 - [NomadBSD repository](https://github.com/nomadbsd/NomadBSD)
+- [Goran Mekić (For all the good advices about FreeBSD audio)](https://meka.rs/blog/2021/10/12/freebsd-audio/)
 - [libredeb (For the original XFCE macOS skinpack for Linux)](https://github.com/libredeb/xfce4-macOS_skinpack)
 - [Vermaden (For automount and well written documentation)](https://github.com/vermaden/automount)
