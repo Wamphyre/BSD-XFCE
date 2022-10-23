@@ -8,7 +8,7 @@ test $? -eq 0 || exit 1 "NEED TO BE ROOT TO RUN THIS (YOU CAN USE SUDO TOO)"
 pkg update && portsnap fetch auto
 
 ## COMPILE AND INSTALLS CREATIVE SUITE APPLICATIONS
-pkg install -y gimp shotcut lsp-plugins-lv2 ardour6 qjackctl audacity guitarix-lv2 drumgizmo yoshimi hydrogen
+pkg install -y gimp shotcut lsp-plugins-lv2 ardour6 audacity guitarix-lv2 drumgizmo yoshimi hydrogen
 cd /usr/ports/audio/lmms && make install clean OPTIONS="WITH_JACK" BATCH=YES
 echo ""
 
