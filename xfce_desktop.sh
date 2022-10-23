@@ -38,10 +38,6 @@ pkg install -y nano sudo bash wget htop xorg slim xfce xfce4-pulseaudio-plugin t
 pkg install -y gnome-keyring xfce4-screenshooter-plugin ristretto atril-lite gnome-font-viewer mixer mixertui  
 pkg install -y baobab networkmgr v4l-utils v4l_compat webcamd pwcview sctd brut clamtk filezilla vscode firefox
 
-## COMPILE AND INSTALLS CREATIVE SUITE APPLICATIONS
-pkg install -y vlc gimp shotcut lsp-plugins-lv2 ardour6 qjackctl audacity guitarix-lv2 drumgizmo yoshimi hydrogen deadbeef
-cd /usr/ports/audio/lmms && make install clean OPTIONS="WITH_JACK" BATCH=YES
-
 ## INSTALLS AUTOMOUNT AND FILESYSTEM SUPPORT
 echo ""
 echo "Enabling automount..."
