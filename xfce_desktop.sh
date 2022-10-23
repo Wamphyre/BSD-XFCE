@@ -113,8 +113,10 @@ kldload linux.ko
 sysrc linux_enable="YES"
 echo ""
 
-## COMPILE AND INSTALL LATEST NVIDIA DRIVERS
-echo "Compiling latest Nvidia drivers..."
+## COMPILE AND INSTALL LATEST NVIDIA DRIVERS FOR MODERN CARDS (GTX 1*** / RTX Series)
+## Please, change /usr/ports/x11/nvidia-driver to /usr/ports/x11/nvidia-driver-470 or nvidia-driver-390 if you use GeForce GT or Titan series card.
+## If you're using a legacy Nvidia GeForce card please use nvidia-driver-304 instead
+echo "Compiling Nvidia drivers..."
 echo ""
 cd /usr/ports/x11/nvidia-driver
 make install clean BATCH=yes
@@ -124,7 +126,7 @@ cd /usr/ports/x11/nvidia-xconfig
 make install clean BATCH=yes
 nvidia-xconfig
 echo ""
-echo "Latest Nvidia drivers compiled"
+echo "Nvidia drivers compiled"
 echo ""
 
 ## FreeBSD SYSTEM TUNING FOR BEST DESKTOP EXPERIENCE
@@ -169,10 +171,10 @@ sysrc webcamd_0_flags="-d ugen2.2"
 sysrc jackd_enable="YES"
 sysrc jackd_user="$user"
 sysrc jackd_rtprio="YES"
+## Change JACK /dev/dsp7 by your own interfaces
 sysrc jackd_args="-r -doss -r48000 -p512 -n1 -w16 \
             --capture /dev/dsp7 --playback /dev/dsp7"
 echo ""
-## Change JACK /dev/dsp7 by your own interface
 
 ## UPDATES CPU MICROCODE
 echo "Updating CPU microcode..."
@@ -193,5 +195,6 @@ echo ""
 
 ## DONE, PLEASE RESTART
 echo "Installation done"
-echo "Please restart your system."
+echo "Please, check now /boot/loader.conf and /etc/sysctl.conf if you need to make some changes"
+echo "Don't forget to reboot your system after that"
 echo "BSD-XFCE by Wamphyre :)"
