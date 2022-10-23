@@ -32,7 +32,7 @@ echo "MAKE_JOBS_NUMBER?=16" >> /etc/make.conf
 echo "OPTIONS_SET=OPTIMIZED_CFLAGS CPUFLAGS" >> /etc/make.conf
 
 ## INSTALLS BASE DESKTOP AND CORE UTILS
-echo "Installing XFCE and creative suite..."
+echo "Installing XFCE..."
 echo ""
 pkg install -y nano sudo bash wget htop xorg slim xfce xfce4-pulseaudio-plugin thunar-archive-plugin xarchiver unzip 
 pkg install -y gnome-keyring xfce4-screenshooter-plugin ristretto atril-lite gnome-font-viewer mixer mixertui  
