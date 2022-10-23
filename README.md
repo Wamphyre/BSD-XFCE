@@ -1,6 +1,8 @@
 # BSD-XFCE
 BSD-XFCE is a collection of scripts and FreeBSD filesystem configurations to install a full-fledged and high-performant XFCE enviroment specially optimized for desktop and workstation use without the hassle and with a very beautiful looking for classic OS X users.
 
+## DISCLAIMER: This project doesn't want to be a "OS X clone on FreeBSD" or whatever. The installation of the macOS skinpack is totally optional, the base system installation and configurations are the big deal.
+
 ## Screenshots
 
 ![App Screenshot](https://github.com/Wamphyre/BSD-XFCE/blob/main/screenshot.png)
@@ -19,19 +21,15 @@ BSD-XFCE is a collection of scripts and FreeBSD filesystem configurations to ins
 - Updates CPU microcode
 - Improves FreeBSD boot times
 
-## PLEASE: Read the code before install, you would like to change some recommended parameters
-
-## DISCLAIMER: This project doesn't want to be a "OS X clone on FreeBSD" or whatever. The installation of the macOS skinpack is totally optional, the base system installation and configurations are the big deal.
-
-## SUPPORT: Please, open an issue if you need help or want to suggest something. I will try my best :)
+## Before installation
+Read the code before install, you would like to change some recommended parameters (Nvidia driver version, sound devices, etc)
 
 ## Installation (FreeBSD 13/13.*/14)
 
 ```
 git clone https://github.com/Wamphyre/BSD-XFCE && sh BSD-XFCE/xfce_desktop.sh
 ```
-## Post-installation (macOS skinpack) <- Optional step
-
+## Post-installation (macOS skinpack) <- Optional step **AFTER** reboot
 ```
 IMPORTANT! Run these scripts with your user, not root.
 
@@ -41,6 +39,10 @@ Step 2 (As regular user): cd xfce4BSD-macOS_skinpack/configurations/ && sh apply
 Please, use this scripts only in a fresh FreeBSD installation.
 
 At some point, the script will ask you for username to enable XFCE start exec and other services like automount capabilities.
+
+## SUPPORT
+Please, open an issue if you need help or want to suggest something. I will try my best :)
+
 ## Authors
 
 - [@wamphyre](https://github.com/Wamphyre)
