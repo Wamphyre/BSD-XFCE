@@ -6,6 +6,7 @@ BSD-XFCE is a collection of scripts and FreeBSD filesystem configurations to ins
 ## Screenshots
 
 ![App Screenshot](https://github.com/Wamphyre/BSD-XFCE/blob/main/screenshot.png)
+![App Screenshot](https://github.com/Wamphyre/BSD-XFCE/blob/main/screenshot2.png)
 
 ## Features
 
