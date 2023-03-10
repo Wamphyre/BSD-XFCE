@@ -169,7 +169,7 @@ sysrc jackd_enable="YES"
 sysrc jackd_user="$user"
 sysrc jackd_rtprio="YES"
 ## Change JACK /dev/dsp7 by your own interfaces
-sysrc jackd_args="-r -doss -r48000 -p512 -n1 -w16 \
+sysrc jackd_args="-R -doss -r48000 -p512 -n1 -w16 \
             --capture /dev/dsp7 --playback /dev/dsp7"
 echo ""
 
