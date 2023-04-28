@@ -164,7 +164,6 @@ sysrc sendmail_submit_enable="NO"
 sysrc dumpdev="NO"
 sysrc webcamd_enable="YES"
 ##Use your own USB port for webcam
-sysrc webcamd_0_flags="-d ugen2.2" 
 sysrc jackd_enable="YES"
 sysrc jackd_user="$user"
 sysrc jackd_rtprio="YES"
