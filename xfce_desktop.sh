@@ -36,7 +36,7 @@ echo "Installing XFCE..."
 echo ""
 pkg install -y nano sudo bash wget htop xorg slim xfce xfce4-pulseaudio-plugin thunar-archive-plugin xarchiver unzip 
 pkg install -y gnome-keyring xfce4-screenshooter-plugin shotwell atril-lite gnome-font-viewer mixer mixertui vlc qjackctl  
-pkg install -y baobab networkmgr v4l-utils v4l_compat webcamd pwcview sctd brut clamtk filezilla firefox deadbeef
+pkg install -y baobab networkmgr v4l-utils v4l_compat webcamd pwcview sctd brut firefox deadbeef
 
 ## INSTALLS AUTOMOUNT AND FILESYSTEM SUPPORT
 echo ""
@@ -152,7 +152,6 @@ sysrc pflog_flags=""
 sysrc ntpd_enable="YES"
 sysrc ntpdate_enable="YES"
 sysrc powerd_enable="YES"
-sysrc powerd_flags="-n adaptive -a hiadaptive -m 2200 -M 4000"
 sysrc performance_cx_lowest="C1"
 sysrc economy_cx_lowest="Cmax"
 sysrc clear_tmp_enable="YES"
