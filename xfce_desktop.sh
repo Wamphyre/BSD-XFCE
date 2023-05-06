@@ -143,6 +143,7 @@ echo 'pass out all keep state' >> /etc/pf.conf
 ## CONFIGURES MORE CORE SYSTEM SERVICES
 echo "Enabling additional system services..."
 echo ""
+sysrc mac_priority_load="YES"
 sysrc pf_enable="YES"
 sysrc pf_rules="/etc/pf.conf" 
 sysrc pf_flags=""
@@ -167,7 +168,7 @@ sysrc jackd_enable="YES"
 sysrc jackd_user="$user"
 sysrc jackd_rtprio="YES"
 ## Change JACK /dev/dsp7 by your own interfaces
-sysrc jackd_args="-R -doss -r48000 -p512 -n1 -w16 \
+sysrc jackd_args="-R -doss -r48000 -p256 -n1 -w16 \
             --capture /dev/dsp7 --playback /dev/dsp7"
 echo ""
 
