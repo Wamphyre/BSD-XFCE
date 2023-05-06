@@ -3,7 +3,7 @@
 install_fbsd_packages() {
     echo -e "Installing required packages..."
     sudo pkg update
-    sudo pkg install -y vala xfce4-appmenu-plugin catfish plank zenity python3
+    sudo pkg install -y vala xfce4-appmenu-plugin catfish plank zenity python3 py39-pip
 }
 
 install_gtk_themes() {
