@@ -88,12 +88,13 @@ echo ""
 
 ## ADDS USER TO CORE GROUPS
 echo "Adding $user to video/realtime/wheel/operator groups"
-pw usermod $user -G video
-pw usermod $user -G realtime
-pw usermod $user -G wheel
-pw usermod $user -G operator
-pw usermod $user -G network
-pw usermod $user -G webcamd
+pw groupmod video -m $user
+pw groupmod audio -m $user
+pw groupmod realtime -m $user
+pw groupmod wheel -m $user
+pw groupmod operator -m $user
+pw groupmod network -m $user
+pw groupmod webcamd -m $user
 echo ""
 
 ## ADDS USER TO SUDOERS
