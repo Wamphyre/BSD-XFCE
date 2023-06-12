@@ -52,7 +52,6 @@ sysrc moused_enable="YES"
 sysrc dbus_enable="YES"
 sysrc slim_enable="YES"
 sysrc update_motd="NO"
-sysrc rc_startmsgs="NO"
 echo ""
 
 ## CREATES .xinitrc SCRIPT FOR A REGULAR DESKTOP USER
@@ -144,13 +143,10 @@ echo 'pass out all keep state' >> /etc/pf.conf
 ## CONFIGURES MORE CORE SYSTEM SERVICES
 echo "Enabling additional system services..."
 echo ""
-sysrc mac_priority_load="YES"
 sysrc pf_enable="YES"
 sysrc pf_rules="/etc/pf.conf" 
-sysrc pf_flags=""
 sysrc pflog_enable="YES"
 sysrc pflog_logfile="/var/log/pflog"
-sysrc pflog_flags=""
 sysrc ntpd_enable="YES"
 sysrc ntpdate_enable="YES"
 sysrc powerd_enable="YES"
