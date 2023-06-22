@@ -134,7 +134,7 @@ cd /etc/ && fetch https://raw.githubusercontent.com/Wamphyre/BSD-XFCE/main/sysct
 fetch https://raw.githubusercontent.com/Wamphyre/BSD-XFCE/main/login.conf
 fetch https://raw.githubusercontent.com/Wamphyre/BSD-XFCE/main/devfs.rules
 cd /boot/ && fetch https://raw.githubusercontent.com/Wamphyre/BSD-XFCE/main/loader.conf
-sysrc devfs_system_ruleset="desktop"
+sysrc devfs_system_ruleset="system"
 cd
 touch /etc/pf.conf
 echo 'block in all' >> /etc/pf.conf
