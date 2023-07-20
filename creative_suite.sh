@@ -1,13 +1,13 @@
 #!/bin/bash
 ## Creative Suite for BSD-XFCE
-## Version 1.0
+## Version 1.5
 
 test $? -eq 0 || exit 1 "NEED TO BE ROOT TO RUN THIS (YOU CAN USE SUDO TOO)"
 
-## UPDATE PACKAGES AND PORTS
-pkg update && portsnap fetch auto
+## UPDATE PACKAGES
+pkg update 
 
-## COMPILE AND INSTALLS CREATIVE SUITE APPLICATIONS
-pkg install -y upscaler gimp shotcut eq10q-lv2 drumkv1-lv2 avldrums-lv2 dragonfly-reverb artyfx-lv2 fatfrog-lv2 invada-studio-plugins-lv2 ardour lmms audacity guitarix drumgizmo yoshimi hydrogen
+## INSTALLS CREATIVE SUITE APPLICATIONS (Audio/Video)
+xargs pkg install -y < creative_packages
 echo ""
 echo "Creative Suite installed, let's make something good!"
