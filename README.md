@@ -39,7 +39,7 @@ Step 2 (As regular user): cd xfce4BSD-macOS_skinpack/configurations/ && sh apply
 ```
 ## Creative Suite <- Optional step **AFTER** reboot
 ```
-sudo sh BSD-XFCE/creative_suite.sh
+sudo sh creative_suite.sh
 ```
 Please, use this scripts only in a fresh FreeBSD installation.
 
