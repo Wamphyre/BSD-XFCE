@@ -32,11 +32,9 @@ echo "MAKE_JOBS_NUMBER?=$CPUCORES" >> /etc/make.conf
 echo "OPTIONS_SET=OPTIMIZED_CFLAGS CPUFLAGS" >> /etc/make.conf
 
 ## INSTALLS BASE DESKTOP AND CORE UTILS
-echo "Installing XFCE..."
+echo "Installing desktop..."
 echo ""
-pkg install -y nano sudo bash wget htop xorg slim xfce xfce4-pulseaudio-plugin thunar-archive-plugin xarchiver unzip 
-pkg install -y gnome-keyring xfce4-screenshooter-plugin shotwell atril-lite gnome-font-viewer mixer mixertui vlc qjackctl jack_umidi
-pkg install -y baobab networkmgr v4l-utils v4l_compat webcamd pwcview sctd brut firefox deadbeef fuse
+xargs pkg install -y < system_packages
 
 ## INSTALLS AUTOMOUNT AND FILESYSTEM SUPPORT
 echo ""
