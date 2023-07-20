@@ -36,20 +36,13 @@ echo "Installing desktop..."
 echo ""
 xargs pkg install -y < system_packages
 
-## INSTALLS AUTOMOUNT AND FILESYSTEM SUPPORT
-echo ""
-echo "Enabling automount..."
-echo ""
-pkg install -y automount exfat-utils fusefs-exfat fusefs-ntfs fusefs-ext2 fusefs-hfsfuse fusefs-lkl fusefs-simple-mtpfs dsbmd dsbmc
-sysrc dsbmd_enable=YES
-echo ""
-
 ## ENABLES BASIC SYSTEM SERVICES
 echo "Enabling basic services"
 sysrc moused_enable="YES"
 sysrc dbus_enable="YES"
 sysrc slim_enable="YES"
 sysrc update_motd="NO"
+sysrc dsbmd_enable="YES"
 echo ""
 
 ## CREATES .xinitrc SCRIPT FOR A REGULAR DESKTOP USER
