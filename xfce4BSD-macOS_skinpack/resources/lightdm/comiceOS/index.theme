@@ -1,6 +1,0 @@
-[theme]
-name=comiceOS-lightdm
-description=comiceOS login screen
-engine=lightdm-webkit-greeter
-url=index.html
-session=xfce

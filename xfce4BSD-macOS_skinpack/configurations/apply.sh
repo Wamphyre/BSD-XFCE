@@ -62,6 +62,6 @@ xfconf-query -c xsettings -p /Net/IconThemeName -s Cocoa
 xfconf-query -c xsettings -p /Gtk/CursorThemeName -s Rainbow
 xfconf-query -c xfwm4 -p /general/title_font -s "SF Pro Display 11"
 xfconf-query -c xsettings -p /Gtk/FontName -s "SF Pro Display 11"
-xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s /usr/local/share/backgrounds/Catalina.jpg
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s /usr/local/share/backgrounds/wall3.jpg
 gsettings set net.launchpad.plank.dock.settings:/net/launchpad/plank/docks/dock1/ theme California
 gsettings set net.launchpad.plank.dock.settings:/net/launchpad/plank/docks/dock1/ dock-items "['Thunar.dockitem', 'org.gnome.gedit.dockitem', 'xfce-settings-manager.dockitem']"

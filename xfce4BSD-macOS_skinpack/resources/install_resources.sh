@@ -19,8 +19,8 @@ install_icon_themes() {
     sudo chown -R root /usr/local/share/icons/Cocoa
     sudo chown -R root /usr/local/share/icons/Rainbow
     sudo gtk-update-icon-cache -f /usr/local/share/icons/Cocoa
-    sudo cp icons/catfish-symbolic.png /usr/local/share/pixmaps/
-    sudo cp icons/bsd-logo.png /usr/local/share/icons/
+    sudo cp icons/catfish-*.png /usr/local/share/pixmaps/
+    sudo cp icons/bsd-*.png /usr/local/share/icons/
 }
 
 install_fonts() {
@@ -31,9 +31,9 @@ install_fonts() {
 }
 
 install_wallpaper() {
-    sudo cp backgrounds/Catalina.jpg /usr/local/share/backgrounds/
-    sudo chmod 644 /usr/local/share/backgrounds/Catalina.jpg
-    sudo chown root /usr/local/share/backgrounds/Catalina.jpg
+    sudo cp backgrounds/*.jpg /usr/local/share/backgrounds/
+    sudo chmod 644 /usr/local/share/backgrounds/*.jpg
+    sudo chown root /usr/local/share/backgrounds/*.jpg
 }
 
 install_plank_theme() {
