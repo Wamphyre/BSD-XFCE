@@ -6,13 +6,13 @@
 
 echo "Compiling Nvidia drivers..."
 echo ""
-cd /usr/ports/x11/nvidia-driver
-make install clean BATCH=yes
-cd /usr/ports/x11/nvidia-settings
-make install clean BATCH=yes
-cd /usr/ports/x11/nvidia-xconfig
-make install clean BATCH=yes
-nvidia-xconfig
+#cd /usr/ports/x11/nvidia-driver
+#make install clean BATCH=yes
+#cd /usr/ports/x11/nvidia-settings
+#make install clean BATCH=yes
+#cd /usr/ports/x11/nvidia-xconfig
+#make install clean BATCH=yes
+#nvidia-xconfig
 echo ""
 echo "Nvidia drivers compiled"
 echo ""
@@ -24,4 +24,4 @@ echo ""
 
 ## For superior versions:
 
-sysrc -f /etc/rc.conf kld_list+=nvidia-modeset
+#sysrc -f /etc/rc.conf kld_list+=nvidia-modeset
