@@ -139,7 +139,7 @@ sysrc jackd_enable="YES"
 sysrc jackd_user="$user"
 sysrc jackd_rtprio="YES"
 ## Change JACK /dev/dsp7 by your own interfaces
-sysrc jackd_args="-doss -r96000 -p256 -n1 -w16 --capture /dev/dsp7 --playback /dev/dsp7"
+sysrc jackd_args="-doss -r48000 -p256 -n1 -w16 --capture /dev/dsp7 --playback /dev/dsp7"
 echo ""
 
 ## UPDATES CPU MICROCODE
