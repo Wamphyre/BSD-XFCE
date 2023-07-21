@@ -162,5 +162,6 @@ echo ""
 ## DONE, PLEASE RESTART
 echo "Installation done"
 echo "Please, check now /boot/loader.conf and /etc/sysctl.conf if you need to make some changes"
+echo "Also READ and EDIT the nVidia / Intel / AMD to install the GPU drivers in this step"
 echo "Don't forget to reboot your system after that"
 echo "BSD-XFCE by Wamphyre :)"
