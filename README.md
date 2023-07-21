@@ -14,7 +14,7 @@ BSD-XFCE is a collection of scripts and FreeBSD filesystem configurations to ins
 - Installs Creative Suite (Audio/Video & image editing applications)
 - Enables high quality sound server with JACK by default
 - Enables automount for many filesystems
-- Installs latest NVIDIA graphics drivers (No AMD/Intel support for now)
+- Installs latest NVIDIA / INTEL / AMD graphics drivers (Just edit and use the correct installer script)
 - Enables Linux compatibility layer (default CentOS 7)
 - Enables webcam support by default
 - Enables general system performance for desktop use
@@ -23,12 +23,20 @@ BSD-XFCE is a collection of scripts and FreeBSD filesystem configurations to ins
 - Improves FreeBSD boot times
 
 ## Before installation
-Read the code before install, you would like to change some parameters (Nvidia driver version suitable for your GPU, sound devices, webcams...)
+Read the code before install, you would like to change some parameters (Drivers for your GPU, sound devices, webcams...)
 
 ## Installation (FreeBSD 13/13.*/14)
 
 ```
 git clone https://github.com/Wamphyre/BSD-XFCE && sh BSD-XFCE/xfce_desktop.sh
+```
+## GPU Drivers <- Step **BEFORE** reboot
+```
+IMPORTANT! READ and EDIT the scripts before execution
+
+Nvidia drivers use: nvidia_gpu_install.sh
+Intel drivers use: intel_gpu_install.sh
+AMD drivers use: amd_gpu_install.sh
 ```
 ## Post-installation (macOS skinpack) <- Optional step **AFTER** reboot
 ```
