@@ -46,10 +46,6 @@ sysrc dsbmd_enable="YES"
 echo ""
 
 ## CREATES .xinitrc SCRIPT FOR A REGULAR DESKTOP USER
-cd
-touch .xinitrc
-echo 'exec xfce4-session' >> .xinitrc
-echo ""
 echo ; read -p "Want to enable XFCE for a regular user? (yes/no): " X;
 echo ""
 if [ "$X" = "yes" ]
@@ -105,12 +101,13 @@ echo ""
 mv /etc/sysctl.conf /etc/sysctl.conf.bk
 mv /boot/loader.conf /boot/loader.conf.bk
 mv /etc/login.conf /etc/login.conf.bk
-cd /etc/ && fetch https://raw.githubusercontent.com/Wamphyre/BSD-XFCE/main/sysctl.conf
-fetch https://raw.githubusercontent.com/Wamphyre/BSD-XFCE/main/login.conf
-fetch https://raw.githubusercontent.com/Wamphyre/BSD-XFCE/main/devfs.rules
-cd /boot/ && fetch https://raw.githubusercontent.com/Wamphyre/BSD-XFCE/main/loader.conf
+
+mv sysctl.conf /etc/
+mv login.conf /etc/
+mv devfs.rules /etc/
+mv loader.conf /boot/
+
 sysrc devfs_system_ruleset="system"
-cd
 touch /etc/pf.conf
 echo 'block in all' >> /etc/pf.conf
 echo 'pass out all keep state' >> /etc/pf.conf
