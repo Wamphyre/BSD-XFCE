@@ -45,6 +45,9 @@ sysrc update_motd="NO"
 sysrc dsbmd_enable="YES"
 echo ""
 
+## CHANGE SLIM THEME TO FBSD
+sed -i '' 's/current_theme       default/current_theme       fbsd/g' /usr/local/etc/slim.conf
+
 ## CREATES .xinitrc SCRIPT FOR A REGULAR DESKTOP USER
 echo ; read -p "Want to enable XFCE for a regular user? (yes/no): " X;
 echo ""
