@@ -17,6 +17,7 @@ fusefs-ntfs
 fusefs-simple-mtpfs
 gnome-font-viewer
 gnome-keyring
+hidapi
 htop
 jack_umidi
 mixer
