@@ -66,6 +66,13 @@ echo "USERUMOUNT=YES" >> /usr/local/etc/automount.conf
 echo "USER=$user" >> /usr/local/etc/automount.conf
 echo "FM='thunar'" >> /usr/local/etc/automount.conf
 echo "NICENAMES=YES" >> /usr/local/etc/automount.conf
+echo "/media		-media		-nosuid" >> /etc/auto_master
+echo "notify 100 {
+	match "system" "GEOM";
+	match "subsystem" "DEV";
+	action "/usr/sbin/automount -c";
+};" >> /etc/devd.conf
+sysrc autofs_enable="YES"
 
 ## SPECIAL PERMISSIONS FOR USB DRIVES AND WEBCAM
 echo "perm    /dev/da0        0666" >> /etc/devfs.conf
