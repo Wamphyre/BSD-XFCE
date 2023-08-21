@@ -67,3 +67,6 @@ Please, open an issue if you need help or want to suggest something. I will try 
 - [Goran Mekić (For all the good advices about FreeBSD audio)](https://meka.rs/blog/2021/10/12/freebsd-audio/)
 - [libredeb (For the original XFCE macOS skinpack for Linux)](https://github.com/libredeb/xfce4-macOS_skinpack)
 - [Vermaden (For automount and well written documentation)](https://github.com/vermaden/automount)
+
+## Don't forget to buy me a beer!
+https://ko-fi.com/wamphyre94078
